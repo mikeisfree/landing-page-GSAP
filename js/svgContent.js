@@ -1,5 +1,5 @@
 function loadSVG() {
-  fetch("./img/SVG_city_final.svg")
+  fetch("../img/SVG_city_final.svg")
     .then((response) => {
       return response.text();
     })
