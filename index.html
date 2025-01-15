@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+    <link rel="stylesheet" href="css/gsapscroll.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chevron_right"
+    />
+
+   
+  </head>
+
+  
+  <body>
+    <h3 class="counter">0</h3>
+    <div class="overlay">
+      <div class="triangle"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="cursor"></div>
+    <div class="hero">
+      <nav>
+        <div class="logo button-nav" data-label="Webzone:404"">
+          <a href="#">Webzone:404</a>
+        </div>
+
+        <div class="sound-controll-wrapper">
+          <div
+          id="music-toggle"
+          class="borderAnim"
+          class=""
+          data-effect="flicker"
+        >
+          <input type="checkbox" id="advancedCheckbox" />
+          <label for="advancedCheckbox" class="borderAnim">
+            <div class="box" id="music-box">
+              <div class="front"></div>
+              <div class="back"></div>
+              <div class="left"></div>
+              <div class="right"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+            <span class="icon material-symbols-outlined checkmark"> </span>
+          </label>
+          <span class="jsvalidation shimmer"></span>
+        </div>
+
+
+          <div id="volume-controls">
+            <div>
+              <label for="music-volume">Music Volume:</label>
+              <input
+                type="range"
+                id="music-volume"
+                min="0"
+                max="1"
+                step="0.01"
+                value="1"
+              />
+            </div>
+            <div>
+              <label for="sfx-volume">SFX Volume:</label>
+              <input
+                type="range"
+                id="sfx-volume"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="menu-items">
+          <div class="loader"></div>
+          <div class="about menu-item  button-nav menu-item" data-label="About"">
+            <a href="#">About</a>
+          </div>
+          <div class="contact menu-item  button-nav menu-item" data-label="Contact"">
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero-info">
+        <ul class="info-wrapper">
+          <li class="info-item">
+            <div class="heroImgWrapper threeAnim1"></div>
+            <h2 class="card-title scramble">hey there!</h2>
+            <p class="card-description">
+              welcome to my everchanging laboratory, portfolio and diary. I do
+              hope You will like the experience althou you shoud be aware...
+              weird things might happen
+            </p>
+          </li>
+
+          <li class="info-item">
+            <div class="heroImgWrapper threeAnim1"></div>
+            <h2 class="card-title scramble">hey there!</h2>
+            <p class="card-description">
+              welcome to my everchanging laboratory, portfolio and diary. I do
+              hope You will like the experience althou you shoud be aware...
+              weird things might happen
+            </p>
+          </li>
+
+          <li class="info-item">
+            <div class="heroImgWrapper threeAnim1">
+              <!-- <img src="img/1.webp" class="card-img" alt="" /> -->
+            </div>
+            <h2 class="card-title scramble">hey there!</h2>
+            <p class="card-description">
+              welcome to my everchanging laboratory, portfolio and diary. I do
+              hope You will like the experience althou you shoud be aware...
+              weird things might happen
+            </p>
+          </li>
+
+          <li class="info-item">
+            <div class="heroImgWrapper threeAnim1">
+              <!-- <img src="img/1.webp" class="card-img" alt="" /> -->
+            </div>
+            <h2 class="card-title scramble">hey there!</h2>
+            <p class="card-description">
+              welcome to my everchanging laboratory, portfolio and diary. I do
+              hope You will like the experience althou you shoud be aware...
+              weird things might happen
+            </p>
+          </li>
+        </ul>
+      </section>
+      <div class="welcome-message">
+        <span class="type-text"
+          >Welcome to my everchanging labolatory <br /><br />
+          Use the sound toggler for the <br />atmosphere and overal
+          <br />experience</span
+        >
+      </div>
+      
+      <div class="unicorn">
+        <div
+          data-us-project="afouhLZqmcoJ6tEJGPZK"
+          style="width: 100%; height: 100vh; top:0; left:0;"
+        ></div>
+        
+      </div>
+     <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.35/build/spline-viewer.js"></script>
+<spline-viewer style="position:absolute;" loading-anim-type="spinner-small-dark" url="https://prod.spline.design/G09aBKi3-zaikI8l/scene.splinecode"></spline-viewer> -->
+    </div>
+    <div class="container">
+      <section class="sticky">
+        <div class="intro">
+          <div class="intro-col">
+            <p>
+              <span class="env-title">
+                Wordpress &nbsp;&nbsp;&nbsp;&nbsp;<br />
+                Prismic&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                JavaScript&nbsp;&nbsp;&nbsp; <br />
+                Next.js &nbsp;&nbsp;&nbsp;&nbsp;<br />
+              </span>
+            </p>
+          </div>
+
+          <div class="intro-col">
+            <p>
+              <span class="env-title">
+                Wordpress&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                Prismic&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                JavaScript&nbsp;&nbsp;&nbsp; <br />
+                Next.js &nbsp;&nbsp;&nbsp;&nbsp;<br />
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="verticalSpacer"></div>
+        <div class="img-1">
+          <img src="img/Space_invaders.webp" alt="" />
+        </div>
+        <div class="unicorn unicorn-about-section">
+          <div class="about-section">
+            <div class="about-section-name">
+              <h3 class="scramble about-name">onTable</h3>
+              <p>Process running ////</p>
+            </div>
+            <div class="row-1 about-row">
+              <div class="about-col-1 about-col">
+                <span class="type-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, dolor laudantium distinctio ad ipsa iste cum rem minus
+                  dicta. Perferendis.</span
+                >
+              </div>
+              <div class="about-col-2 about-col">
+                <h5 class="scramble">FOLIO 2024</h5>
+              </div>
+            </div>
+
+            <div class="row-2 about-row">
+              <div class="img-col threeAnim2">
+
+              </div>
+            </div>
+
+            <div class="row-3 about-row">
+              <div class="about-col-1 about-col">
+                <div class="about-unit">
+                  <p>P / WHO</p>
+                  <h5 class="scramble">Michael Johnson</h5>
+                </div>
+              </div>
+              <div class="about-col-2 about-col">
+                <div class="about-unit">
+                  <ul class="about-list">
+                    <li class="about-list-item">
+                      Loc.
+                      <span>Warsaw, PL</span>
+                    </li>
+                    <li class="about-list-item">
+                      Agency
+                      <span>//Webzone</span>
+                    </li>
+                    <li class="about-list-item">
+                      Role
+                      <span>Frontend Developer</span>
+                    </li>
+                    <li class="about-list-item">
+                      Tools
+                      <span>HTML, CSS, JS, React, Next.js, TailwindCSS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div 
+            data-us-project="nlu6012pCfcIDVcONsdb"
+            style="width: 100%; height: 100%;"
+          ></div>
+        </div>
+
+        <div class="img-2">
+          <img
+            src="img/Cinematic_Kino_A_vast_expanse_of_space_is_adorned_with_twinkli_3.jpg"
+            alt=""
+          />
+        </div>
+        <div class="img-3"></div>
+        <div class="copy">
+          <div class="copy-first">
+            <div class="slick-slider">
+              <div class="slick-slide">
+                <h2>Slide 1</h2>
+                <img src="img/1.webp" alt="" />
+              </div>
+              <div class="slick-slide">
+                <h2>Slide 2</h2>
+                <img src="img/1.webp" alt="" />
+              </div>
+              <div class="slick-slide">
+                <h2>Slide 3</h2>
+                <img src="img/1.webp" alt="" />
+              </div>
+              <div class="slick-slide">
+                <h2>Slide 4</h2>
+                <img src="img/1.webp" alt="" />
+              </div>
+              <div class="slick-slide">
+                <h2>Slide 5</h2>
+                <img src="img/1.webp" alt="" />
+              </div>
+              <div class="slick-slide">
+                <h2>Slide 6</h2>
+                <img src="img/1.webp" alt="" />
+              </div>
+            </div>
+            <h4>
+              <span>GSAP</span><br />
+              Elevate your website with captivating animations. Engage visitors
+              like never before!
+            </h4>
+          </div>
+          <div class="copy-second">
+                <!-- Embed 3dlandingpage.html using iframe -->
+    <iframe src="3dlandingpage.html" width="100%" height="100%" frameborder="0"></iframe>
+            <h4 class="three">
+              <span>Three.js</span><br />Transform your website with immersive
+              3D visuals
+            </h4>
+          </div>
+        </div>
+
+        <div class="img-4"></div>
+      
+
+      
+
+        <section class="footer"></section> 
+
+
+
+      </section>
+
+
+
+      <div class="container-gallery">
+        <div class="gallery-start"></div>
+        <div class="clients">
+          <div class="row">
+            <div class="log">
+              <a href="#"
+                ><p class="button-nav" data-label="">Following pointer</p>
+                <img src="img/3.webp" alt=""
+              /></a>
+            </div>
+            <!-- <div class="log"><p>SVG Animation</p></div> -->
+          </div>
+          <div class="row">
+            <div class="log">
+              <p class="button-nav" data-label="">3d Object Render</p>
+              <img src="img/3.webp" alt="" />
+            </div>
+            <!-- <div class="log"><p>THREE.js</p></div> -->
+          </div>
+          <div class="row">
+            <div class="log">
+              <p class="button-nav" data-label="">Dynamic Query</p>
+              <img src="img/1.webp" alt="" />
+            </div>
+            <!-- <div class="log"><p>Prismic project</p></div> -->
+          </div>
+          <div class="row">
+            <div class="log">
+              <p class="button-nav" data-label="">CMS Works</p>
+              <img src="img/2.webp" alt="" />
+            </div>
+            <!-- <div class="log"><p>Wordpress / Elementor</p></div> -->
+          </div>
+          <div class="row">
+            <div class="log">
+              <p class="button-nav" data-label="">Frameworks</p>
+              <img src="img/3.webp" alt="" />
+            </div>
+            <!-- <div class="log"><p>React / Next</p></div> -->
+          </div>
+          <div class="row">
+            <div class="log">
+              <p class="button-nav" data-label="">Capturing moment</p>
+              <img src="img/1.webp" alt="" />
+            </div>
+            <!-- <div class="log"><p>Scroll Animation</p></div> -->
+          </div>
+          <div class="row">
+            <div class="log">
+              <p class="button-nav" data-label="">User Interaction</p>
+              <img src="img/2.webp" alt="" />
+            </div>
+            <!-- <div class="log"><p>UI integration</p></div> -->
+          </div>
+        </div>
+  
+        <section class="gallery-end"></section>
+      </div>
+    <div class="spacer-gallery"></div>
+
+
+
+    <div class="marker-container-main">
+      <!-- <div class="marker-container">
+        <div>Webzone:404</div>
+        <div>Right component create identity</div>
+        <div>Featured 2024</div>
+      </div> -->
+  
+  
+      <div class="slider">
+        <div class="slider-wrapper">
+          <div class="slide">
+            <video src="video/vid.mp4" autoplay muted loop controls></video>
+            <!-- <img src="../img/3.webp" alt="" /> -->
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img/3.webp" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="marker-wrapper">
+        <div class="marker">
+          <div class="grab"></div>
+        </div>
+        <div class="active-slide">1/10</div>
+      </div>
+  
+    </div>
+
+    <div class="footertest"></div>
+
+
+    <div class="svg-container">
+      <!-- <h2>City</h2> -->
+      <div id="bg-city"></div>
+    </div>
+  
+
+  </div>
+
+    <!-- <script>
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';}
+      </script> -->
+
+    <script type="text/javascript">!function(){if(!window.UnicornStudio)
+      {window.UnicornStudio={isInitialized:!1};var i=document.createElement("script")
+      // ;i.src="https://cdn.unicorn.studio/v1.3.2/unicornStudio.umd.js",i.onload=function()
+;i.src="js/unicornStudio.umd.js",i.onload=function()
+      {window.UnicornStudio.isInitialized||(UnicornStudio.init()
+      ,window.UnicornStudio.isInitialized=!0)},document.getElementsByTagName("head")
+      [0].appendChild(i)}}();</script>
+
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+    <script src="js/hover-effect.umd.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/gsapscroll.js"></script>
+    <script src="js/svgContent.js"></script>
+    <!-- <script src="js/gallery.js"></script> -->
+
+   
+  </body>
+</html>
